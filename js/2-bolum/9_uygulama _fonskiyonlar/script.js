@@ -53,3 +53,10 @@ console.log(
   "-------------------------------------------------------------------------------------"
 );
 // 5- Değişkeem sayıda parametre alan toplam  isminde bir fonskiyon tanımlayınız.
+function toplam(...sayilar) {
+  let toplam = 0;
+  for (let sayi of sayilar) {
+    toplam += sayi;
+  }
+  return toplam;
+}

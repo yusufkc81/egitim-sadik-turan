@@ -2,7 +2,7 @@
 //mezuniyet == lise yada mezuniyet == universite
 
 let yas = 20;
-let mezuniyet = "ilkokul";
+let mezuniyet = "lise";
 
 if (yas >= 18 && (mezuniyet == "lise" || mezuniyet == "üniversite")) {
   console.log("ehliyet alablirsiniz.");
